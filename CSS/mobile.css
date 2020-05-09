@@ -1,0 +1,131 @@
+/* Start Media Querie For Mobile Devices */
+
+@media screen and (max-width: 500px) {
+  h4 {
+    font-size: 18px;
+    padding-bottom: 5px;
+    padding-top: 30px;
+  }
+
+  p {
+    font-size: 8px;
+    padding-top: 4px;
+  }
+  #navbar {
+    background-image: url(/test-flex/img/second.jpg);
+    width: 100%;
+    overflow: hidden;
+    height: 400px;
+    text-align: justify;
+  }
+  .container {
+    max-width: 500px;
+    text-align: center;
+  }
+  .nav-content h4 {
+    font-size: 10px;
+    top: 100px;
+    height: 20px;
+    width: auto;
+    padding: 1px;
+  }
+  .nav-content p {
+    top: 120px;
+    height: 20px;
+    width: auto;
+    font-size: 8px;
+    padding: 1px;
+  }
+  #navbar .container ul {
+    height: 30px;
+    padding: 3px;
+  }
+
+  #navbar .container ul li {
+    padding: 2px;
+    font-size: 10px;
+  }
+  #navbar .container ul li a {
+    padding: 2px 6px;
+  }
+  #navbar .container ul li a:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 6px 8px 5px rgba(40, 224, 209, 0.432), 0 12px 35px 0;
+  }
+
+  #first-section {
+    height: 870px;
+  }
+
+  .main-content {
+    padding: 5px 5px;
+    flex-direction: column;
+  }
+  .box {
+    padding-top: 10px;
+  }
+
+  .circle-icon {
+    background: #69e0f5;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    justify-items: auto;
+    padding: 15px 10px;
+  }
+  .box h5 {
+    font-size: 10px;
+  }
+  #second-section {
+    height: 250px;
+    background-size: 200px 100px;
+  }
+
+  #second-section .container a {
+    padding: 2px 8px;
+  }
+  .button {
+    font-size: 12px;
+    padding: 7px 25px;
+  }
+  .wrapper2 {
+    padding: 11px 0;
+  }
+  #third-section {
+    height: 990px;
+  }
+  #images {
+    flex-direction: column;
+    padding: 10px 5px;
+  }
+  #images .content-img {
+    width: 100%;
+    padding: 8px 0px;
+  }
+
+  #images .content-img img {
+    height: 180px;
+    width: 100%;
+    padding: 1px 0px;
+  }
+
+  #images .content-img p {
+    text-decoration: underline;
+    padding-top: 0px;
+  }
+}
+#third-section {
+  height: 980px;
+}
+#fourth-section {
+  height: 200px;
+}
+.fs-content {
+  padding: 30px 5px;
+}
+
+#footer .container .footer {
+  justify-content: space-around;
+}
+
+/* End of Media Querie For Mobile Devices */
